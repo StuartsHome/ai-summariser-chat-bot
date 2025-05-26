@@ -29,3 +29,4 @@
 ## Backend
 /backend/.venv
 /backend/src/ml/*
+README.ignore.md

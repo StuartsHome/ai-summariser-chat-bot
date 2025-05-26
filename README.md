@@ -1,17 +1,5 @@
+# AI Summariser Chat Bot
 
-
-python3 -m venv .venv
-source .venv/bin/activate
-which python
-echo "*" > .venv/.gitignore
-pip3 install "fastapi[standard]"
-fastapi dev main.py
-pip3 freeze > requirements.txt
-
-## TODO
-
-- upload file to search
-- tests
 
 ## Architecture
 backend
@@ -36,9 +24,15 @@ uvicorn main:app --host 0.0.0.0 --port 8080
 npm install
 npm run dev
 
-
-## TODOs that were restricted by time
+## TODOs that were restricted by time  
 - handle frontend errors
 - tests for both frontend and backend
 - train dataset
 - allow file to be uploaded into frontend text input
+- dockerise both frontend and backend into one Dockerfile
+
+
+N.B:
+source: https://github.com/StuartsHome/ai-summariser-chat-bot
+I'll keep on working on this over time to improve
+
