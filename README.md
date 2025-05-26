@@ -8,6 +8,7 @@
   - vite for build
   - react and typescrypt for functionality
 
+![Alt text](assets/frontend-example.png?raw=true "Title")
 
 ## Getting Started
 ### Local - Backend
@@ -24,6 +25,7 @@ uvicorn main:app --host 0.0.0.0 --port 8080
 ```sh
 npm install
 npm run dev
+* frontend accessible at: http://localhost:5173/ *
 ```
 
 ## TODOs that were restricted by time  
