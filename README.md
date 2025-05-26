@@ -1,18 +1,16 @@
 # AI Summariser Chat Bot
-
-
 ## Architecture
 backend
-    fastapi
-    docs at local:
-        http://127.0.0.1:8080/docs
+- fastapi
+  - docs at local:
+      - http://127.0.0.1:8080/docs
 frontend
-    vite for build
-    react and typescrypt
+  - vite for build
+  - react and typescrypt for functionality
 
 
 ## Getting Started
-### Local
+### Local - Backend
 cd /backend
 python3 -m venv .venv
 source .venv/bin/activate
@@ -20,7 +18,7 @@ intall requirements.txt in venv
 cd /src
 uvicorn main:app --host 0.0.0.0 --port 8080
 
-## To run frontend
+## Local - Frontend
 npm install
 npm run dev
 
