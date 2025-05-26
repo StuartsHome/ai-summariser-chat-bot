@@ -35,12 +35,12 @@ npm run dev
 ## Docker
 Makefile in root of project to build and start both containers.
 
-## Docker - Backend
+### Docker - Backend
 To build and start container:
 ```
 make start-backend
 ```
-## Docker - Frontend
+### Docker - Frontend
 To build and start container:
 ```
 make start-frontend
