@@ -3,9 +3,9 @@
 - Backend
   - Fastapi
     - api accessible at:
-      - http://127.0.0.1:8080
+      - http://localhost:8080
     - docs at local:
-      - http://127.0.0.1:8080/docs
+      - http://localhost:8080/docs
 - Frontend
   - Vite for build and tooling
   - React and Typescript for functionality
