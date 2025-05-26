@@ -30,3 +30,4 @@
 /backend/.venv
 /backend/src/ml/*
 README.ignore.md
+docker-compose.yaml

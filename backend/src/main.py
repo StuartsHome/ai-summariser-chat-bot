@@ -37,8 +37,8 @@ class Question(BaseModel):
 
 class Model:
     def __init__(self):
-        # self.pipeline = pipeline(task=TASK, model=SMALL_MODEL)
-        self.pipeline = pipeline(task=TASK, model=LARGE_MODEL)
+        self.pipeline = pipeline(task=TASK, model=SMALL_MODEL)
+        # self.pipeline = pipeline(task=TASK, model=LARGE_MODEL)
     def ask_question(self, question):
         got = self.pipeline(f"summarize: {question.contents}")
         result = {"author": SERVER, 'contents': got[0].get('summary_text')}
