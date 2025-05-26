@@ -1,10 +1,10 @@
 # AI Summariser Chat Bot
 ## Architecture
-backend
-- fastapi
-  - docs at local:
+- backend
+  - fastapi
+    - docs at local:
       - http://127.0.0.1:8080/docs
-frontend
+- frontend
   - vite for build
   - react and typescrypt for functionality
 
